@@ -1,0 +1,318 @@
+/* Basic css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* navbar */
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 60px;
+}
+
+.nav .logo h2 {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.nav .logo span {
+    color: #ff5f61;
+}
+
+.nav .navigation ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav .navigation ul li {
+    padding-right: 10px;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav .navigation ul .style {
+    padding: 10px 20px;
+    color: #fff;
+    background: #ff5f61;
+    border: none;
+    border-radius: 40px;
+}
+
+/* hero section */
+
+.hero {
+    display: flex;
+    width: 100%;
+    margin: 100px 100px;
+}
+
+.hero .content-area {
+    width: 50%;
+}
+
+.hero .hero-image {
+    width: 50%;
+}
+
+.hero .content-area h2 {
+    font-weight: 900;
+    font-size: 30px;
+    padding-bottom: 20px;
+    line-height: 40px;
+}
+
+.hero .content-area span {
+    color: tomato;
+}
+
+.hero .content-area p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.hero .content-area button {
+    padding: 20px 40px;
+    border-radius: 50px;
+    color: #fff;
+    background-image: linear-gradient(to right, #b31527 0%, #F45C43 51%, #ff5267 100%);
+    border: none;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.hero .hero-image img {
+    margin-top: -60px;
+}
+
+/* ABOUT SECTION */
+
+
+.about {
+    display: flex;
+    background: #fff4ee;
+    background-image: url('../images/shapes/7.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-image,
+.about-content {
+    width: 50%;
+}
+
+.about .about-image img {
+    width: 60%;
+    padding-left: 20%;
+    margin-top: 50px;
+
+}
+
+.about .about-content {
+    padding-right: 15%;
+    margin-top: 100px;
+}
+
+.about .about-content h2 {
+    font-weight: 900;
+    font-size: 30px;
+    padding-bottom: 20px;
+    line-height: 40px;
+}
+
+.about .about-content p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.about .about-content button {
+
+    padding: 20px 40px;
+    border-radius: 50px;
+    color: #fff;
+    background-image: linear-gradient(to right, #d12c3f 0%, #dc543f 51%, #c21529 100%);
+    border: none;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+/* RECIPIES SECTION */
+.recipe {
+    margin: 0 80px;
+}
+
+.recipe .recipe-title {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.recipe .recipe-title h2 {
+    font-weight: 700;
+    font-size: 30px;
+    padding: 20px 0;
+    line-height: 40px;
+}
+
+.recipe .recipe-title p {
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.recipe .recipies-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.recipe .recipies-box .box-image img {
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.recipe .recipies-box .single-box {
+    padding: 10px 10px;
+    box-shadow: 10px 10px 40px gray;
+    margin: 0 30px;
+    border-radius: 10px;
+}
+
+.recipe .recipies-box .single-box .box-content {
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.recipe .recipies-box .single-box .box-content h2 {
+    font-weight: 700;
+    font-size: 22px;
+    padding: 20px 0;
+    line-height: 40px;
+}
+
+.recipe .recipies-box .single-box .box-content p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+/* Follower section */
+
+.follower {
+    margin: 100px;
+    box-shadow: 10px 10px 40px gray;
+    padding: 40px 0;
+    border-radius: 10px;
+}
+
+.follower .whole-follow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 80px;
+}
+
+.follower .whole-follow h2 {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.follower .whole-follow p {
+    font-weight: 400;
+    font-size: 13px;
+    color: #666;
+    margin-top: 10px;
+}
+
+
+/* banner part */
+
+.banner {
+    background: #233a95;
+    margin: 100px 0;
+    padding: 50px 20px;
+}
+
+.banner .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.banner .banner-content h1 {
+    color: #fff;
+    font-size: 45px;
+    padding: 30px 40px;
+}
+
+.banner .banner-content h2 {
+    color: #f9f9f9;
+    font-size: 18px;
+    padding: 30px 60px;
+    margin-top: -20px;
+}
+
+.banner .banner-content span {
+    color: #ff5f61;
+}
+
+.banner button {
+    padding: 15px 25px;
+    font-size: 18px;
+    color: #111;
+    background: #fff;
+    border: none;
+    border-radius: 50px;
+    margin-left: 50px;
+}
+
+
+
+/* Footer part */
+
+footer {
+    background-color: #000;
+    padding: 50px 0;
+}
+
+footer .footer-title {
+    text-align: center;
+}
+
+footer .footer-title h2 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+footer .footer-title span {
+    color: #ff5f61;
+}
+
+footer .footer-title p {
+    color: rgb(220, 220, 220);
+    margin-top: 20px;
+    font-size: 16px;
+}
